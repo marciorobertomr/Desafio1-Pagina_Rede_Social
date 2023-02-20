@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+body {
+    background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-028.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 1.5em 0;
+}
+
+.foto-perfil {
+    width: 18%;
+    margin-bottom: 1em;
+
+    border: 2px solid rgb(12, 160, 165);
+    border-radius: 100%;
+}
+
+
+/* MAIN */
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    
+    width: 20%;
+    margin: 0 auto 1em;
+    padding: 0.7em 1.5em;
+
+    border: 1px solid rgb(12, 160, 165);
+}
+
+
+/* FOOTER */
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    
+    width: 15%;
+    margin: 2em auto;
+}
+
+.redes-sociais a {
+    font-size: 1.5em;
+}
