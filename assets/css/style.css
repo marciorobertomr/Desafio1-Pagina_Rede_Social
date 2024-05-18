@@ -1,104 +1,16 @@
-@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@100 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
 
 body {
-    /* color:  rgb(32, 18, 161); */
-    color: rgb(32, 18, 161);
-    background-color: #FAF7FD;
-    /* background-color: black; */
-    text-align: center;
-    /* margin: 50px 100px auto 100px; */
-    margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12px;
-    width: 100%;
-    height: 100%;
-}
-
-#nickprofile {
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-
-#profile {
-    margin: 50px auto auto auto;
-    width: 160px;
-    height: 160px;
-    border-radius: 200px;
-    padding: 3px;
-    border: 2px solid  rgb(32, 18, 161);
-}   
-/*
-.links > ul > li > p { 
-    border: 2px solid  rgb(32, 18, 161);
-    margin: 18px 40% 18px 40%;
-    padding: 8px;
-    font-weight: bold;
-    margin-bottom: -5px;
-}
-*/
-
-.links > p > a {
-    text-decoration: none; /* Retira o sublinhado do link */
-    color:  rgb(32, 18, 161);
-}
-
-.links > p { 
-    border: 2px solid  rgb(32, 18, 161);
-    margin: 18px 40% 18px 40%;
-    padding: 8px;
-    font-weight: bold;
-    margin-bottom: -5px;
-}
-
-.myself > p {
-    font-size: 15px;
-    margin: 18px 30% 18px 30%;
-    text-align: justify;
-}
-
-.myself > a {
-    color:  rgb(32, 18, 161);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.photographs > img {
-    margin: 1% auto auto auto;
-    width: 700px;
-    height: auto;
-}
-
-.photographs > a {
-    color:  rgb(32, 18, 161);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.movie > a {
-    color:  rgb(32, 18, 161);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.contact > a {
-    color:  rgb(32, 18, 161);
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.contact > p {
-    font-size: 15px;
-    margin: 18px 30% 18px 30%;
-    text-align: center;
-}
-
-.contact > p > a {
-    color:  rgb(32, 18, 161);
-}
-
-.social {
-    padding: 30px;
-    letter-spacing: 20px;
-    margin-top: 30px;
-    color:  rgb(32, 18, 161);
+    /* background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-028.jpg); */
+    background-image: url(../images/montains.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
 }
