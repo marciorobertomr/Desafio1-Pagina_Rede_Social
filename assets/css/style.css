@@ -13,4 +13,11 @@ body {
     background-image: url(../images/montains.jpg);
     background-position: cover;
     background-repeat: no-repeat;
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 3rem 0 2rem;
 }

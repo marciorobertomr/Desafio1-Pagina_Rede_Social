@@ -1,0 +1,40 @@
+* {
+    color: white;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+section p {
+    margin-bottom: 1rem;
+}
+
+section p img {
+    width: 60%;
+}
+
+.sobre-mim_imagem {
+    text-align: center;
+    margin: 2rem;
+}
+
+footer {
+    margin: 4rem auto;
+    text-align: center;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    border: 1px solid rgb(26, 162, 167);
+
+    padding: 1rem 2rem;
+}
+
+footer a:hover {
+    color: dodgerblue;
+}
