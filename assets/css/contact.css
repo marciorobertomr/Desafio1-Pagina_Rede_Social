@@ -7,24 +7,25 @@ header {
     text-transform: uppercase;
 }
 
-/* MAIN */
-
-section p {
-    margin-bottom: 1rem;
+main {
+    margin: 4em;
 }
 
-section p img {
-    width: 60%;
-    border: 1px solid dodgerblue;
-    box-shadow: 10px 10px 15px black;
+main p {
+    margin: 1em;
 }
 
-.sobre-mim_imagem {
-    margin: 2rem;
+main span {
+    text-transform: uppercase;
+}
+
+main a {
+    text-decoration: none;
 }
 
 footer {
     margin: 4rem auto;
+    text-align: center;
     display: inline-block;
 }
 
@@ -40,5 +41,4 @@ footer a {
 footer:hover {
     scale: 1.2;
     transition: .4s;
-    color: dodgerblue;
 }
